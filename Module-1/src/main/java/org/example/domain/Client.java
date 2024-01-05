@@ -16,10 +16,10 @@ import java.util.Objects;
 @Setter
 @ToString
 @Builder
-@NoArgsConstructor
 @AllArgsConstructor
 @Entity
 @Table(name = "client")
+@NoArgsConstructor
 public class Client implements UserDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
