@@ -4,8 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Module1Application {
+public class AuthApplication {
     public static void main(String[] args) {
-        SpringApplication.run(Module1Application.class);
+        SpringApplication.run(AuthApplication.class);
     }
 }
